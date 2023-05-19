@@ -1,0 +1,135 @@
+body {
+    /* min-height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+  }
+  
+  .container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .container .row{
+    justify-content: center;
+    align-items: center;
+  }
+  .container .box {
+    position: relative;
+    transition: 0.55s;
+    /* filter: grayscale(1); */
+    
+    width: 195vh;
+    height: 20vh;
+    /* margin: 50px;  */
+  }
+  .container .box img {
+    position: absolute;
+    border-radius: 3%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: screen;
+  }
+  .container .box video {
+    position: absolute;
+    border-radius: 3%;
+    margin-left: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  .container .box h1 {
+    position: absolute;
+    padding-top: 125%;
+    padding-left: 10%;
+    font-size: larger;
+    font-family: 'Saira Stencil One', cursive;
+
+  }
+  .container .head h1 {
+    color: black;
+    position: absolute;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 70px;
+
+  }
+  .container .box:hover{
+    filter: grayscale(0);
+    transform: scale(1.15);
+    /* box-shadow: 2px 2px 2px black; */
+    z-index: 2;
+  }
+  .logo{
+    height: 80px;
+    
+  }
+  .bg-yellow{
+    background-color: rgb(249, 210, 31);
+  }
+  .bg-red{
+    background-color: rgb(215, 1, 39);
+  }
+  .bg-black{
+    background-color: black;
+  }
+  .bg-gray{
+    background-color: gray;
+  }
+  .logo-text{
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .bg-image{
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .inputBox{
+    background-color: #f9f9f9;
+    border-radius: 10%;
+    height: 400px;
+  }
+  .forminput input{
+    border-radius: 5px;
+    width: 250px;
+  }
+  .forminput textarea{
+    border-radius: 5%;
+    width: 250px;
+  }
+  .mt-17{
+    margin-top: 17%;
+  }
+  .container .row a{
+    text-decoration: none;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+  }
